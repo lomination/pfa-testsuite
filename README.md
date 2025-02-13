@@ -2,6 +2,8 @@
 
 This project is test suite for the pfa project. It will help you to know if you're code works and to debug if it does not.
 
+![Screenshot at 2025-02-14 00-18-36](https://github.com/user-attachments/assets/162134b0-6d4c-468a-9b81-f19382579200)
+
 ## Installation
 
 To install it on whatever plateform, download the [testsuite.m](https://github.com/lomination/pfa-testsuite/blob/main/testsuite.m) file and put it into the directory containing your implementation of the integrator class.
@@ -35,6 +37,13 @@ This testsuite will be often updated. Don't forget to redownload the latest vers
 ## Usage
 
 To run the tests of this test suite, simply type `testsuite` in your octave cli.
+
+![Screenshot at 2025-02-14 00-16-38](https://github.com/user-attachments/assets/0ad28e6f-cf6c-4f78-b9b9-79e2119ce927)
+
+> [!NOTE]
+> - `[Success]` means that a test succeeded,
+> - `[Failure]` means that a test failed (the tested value was not the expected one),
+> - `[Error]` means that an unhandled error has been thrown, see the provided message to fix it.
 
 ## Support
 
